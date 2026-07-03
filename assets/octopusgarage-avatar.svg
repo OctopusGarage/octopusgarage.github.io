@@ -1,0 +1,21 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="OctopusGarage avatar">
+  <rect width="1024" height="1024" rx="220" fill="#050B14"/>
+  <path d="M228 520C228 352.106 352.106 228 520 228C687.894 228 812 352.106 812 520C812 687.894 687.894 812 520 812C352.106 812 228 687.894 228 520Z" stroke="url(#paint0_linear)" stroke-width="56"/>
+  <path d="M364 532C364 445.843 429.843 380 516 380C602.157 380 668 445.843 668 532C668 618.157 602.157 684 516 684C429.843 684 364 618.157 364 532Z" fill="#08111D" stroke="#EAFBFF" stroke-opacity=".92" stroke-width="34"/>
+  <path d="M520 150V228" stroke="#2DD4BF" stroke-width="42" stroke-linecap="round"/>
+  <path d="M520 812V890" stroke="#38BDF8" stroke-width="42" stroke-linecap="round"/>
+  <path d="M890 520H812" stroke="#FB923C" stroke-width="42" stroke-linecap="round"/>
+  <path d="M228 520H150" stroke="#2DD4BF" stroke-width="42" stroke-linecap="round"/>
+  <path d="M774 266L722 318" stroke="#38BDF8" stroke-width="42" stroke-linecap="round"/>
+  <path d="M318 722L266 774" stroke="#FB923C" stroke-width="42" stroke-linecap="round"/>
+  <path d="M774 774L722 722" stroke="#2DD4BF" stroke-width="42" stroke-linecap="round"/>
+  <path d="M318 318L266 266" stroke="#38BDF8" stroke-width="42" stroke-linecap="round"/>
+  <circle cx="520" cy="532" r="42" fill="#2DD4BF"/>
+  <defs>
+    <linearGradient id="paint0_linear" x1="228" y1="228" x2="844" y2="784" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2DD4BF"/>
+      <stop offset=".52" stop-color="#38BDF8"/>
+      <stop offset="1" stop-color="#FB923C"/>
+    </linearGradient>
+  </defs>
+</svg>

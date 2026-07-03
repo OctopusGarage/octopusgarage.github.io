@@ -6,27 +6,23 @@
     <title>OctopusGarage</title>
     <meta
       name="description"
-      content="OctopusGarage builds small, practical tools for AI agents, local automation, and browser-native products."
+      content="OctopusGarage builds focused tools for AI agent control, local automation, and browser-native products."
     />
     <link rel="canonical" href="https://octopusgarage.github.io/" />
     <link rel="alternate" type="text/markdown" href="/llms.txt" title="AI-readable site summary" />
     <link rel="alternate" type="application/json" href="/projects.json" title="Project data" />
+    <link rel="icon" href="/assets/octopusgarage-mark.svg" type="image/svg+xml" />
     <link rel="stylesheet" href="/styles.css" />
   </head>
   <body>
     <header class="site-header">
       <a class="brand" href="/" aria-label="OctopusGarage home">
-        <img
-          src="https://avatars.githubusercontent.com/u/260652525?v=4"
-          alt=""
-          width="44"
-          height="44"
-        />
+        <img src="/assets/octopusgarage-mark.svg" alt="" width="36" height="36" />
         <span>OctopusGarage</span>
       </a>
       <nav class="nav" aria-label="Primary navigation">
-        <a href="#projects">Projects</a>
-        <a href="#geo">GEO</a>
+        <a href="#products">Products</a>
+        <a href="#system">System</a>
         <a href="https://github.com/OctopusGarage">GitHub</a>
       </nav>
     </header>
@@ -34,164 +30,138 @@
     <main>
       <section class="hero" aria-labelledby="hero-title">
         <div class="hero-copy">
-          <p class="eyebrow">AI agents, local automation, browser labs</p>
-          <h1 id="hero-title">Build more. Reach everywhere.</h1>
+          <p class="eyebrow">Agent control · local systems · browser products</p>
+          <h1 id="hero-title">Operational software for people building with AI agents.</h1>
           <p class="lead">
-            OctopusGarage ships focused open-source tools for people who work with coding agents,
-            local machines, private networks, and small web products.
+            OctopusGarage turns repeated developer workflows into compact tools: remote agent
+            control, local machine automation, private communication, and polished browser-native
+            experiments.
           </p>
-          <div class="actions" aria-label="Key links">
-            <a class="button primary" href="#projects">Explore projects</a>
-            <a class="button secondary" href="/llms.txt">Read llms.txt</a>
+          <div class="actions" aria-label="Primary actions">
+            <a class="button primary" href="#products">Explore products</a>
+            <a class="button secondary" href="https://github.com/OctopusGarage">View GitHub</a>
           </div>
         </div>
-        <div class="hero-panel" aria-label="OctopusGarage focus areas">
-          <div>
-            <span class="metric">8</span>
-            <span class="label">public projects</span>
+
+        <div class="signal-console" aria-label="OctopusGarage product system illustration">
+          <div class="console-top">
+            <img src="/assets/octopusgarage-mark.svg" alt="" width="42" height="42" />
+            <div>
+              <span class="console-title">OctopusGarage OS</span>
+              <span class="console-subtitle">agent workflows online</span>
+            </div>
           </div>
-          <div>
-            <span class="metric">3</span>
-            <span class="label">published product demos</span>
+          <div class="console-grid">
+            <div class="console-cell active">
+              <span>agent</span>
+              <strong>tmux</strong>
+            </div>
+            <div class="console-cell">
+              <span>sync</span>
+              <strong>git</strong>
+            </div>
+            <div class="console-cell warm">
+              <span>network</span>
+              <strong>proxy</strong>
+            </div>
+            <div class="console-cell">
+              <span>local</span>
+              <strong>mesh</strong>
+            </div>
           </div>
-          <div>
-            <span class="metric">AI</span>
-            <span class="label">agent-first workflow tools</span>
+          <div class="trace">
+            <span></span>
+            <span></span>
+            <span></span>
           </div>
         </div>
       </section>
 
-      <section class="section" aria-labelledby="principles-title">
+      <section class="product-lines" id="system" aria-labelledby="system-title">
         <div class="section-heading">
-          <p class="eyebrow">Operating principles</p>
-          <h2 id="principles-title">Small tools with clear boundaries.</h2>
+          <p class="eyebrow">What it is</p>
+          <h2 id="system-title">A small stack for controlling work that keeps running.</h2>
         </div>
-        <div class="principles">
-          <p><strong>Local first.</strong> Keep private data and working state close to the machine.</p>
-          <p><strong>Operator in the loop.</strong> Automation should explain what it is doing.</p>
-          <p><strong>Useful before impressive.</strong> Each project should solve one concrete workflow well.</p>
-        </div>
-      </section>
-
-      <section class="section" id="projects" aria-labelledby="projects-title">
-        <div class="section-heading">
-          <p class="eyebrow">Public projects</p>
-          <h2 id="projects-title">A practical toolkit for builders.</h2>
-        </div>
-        <div class="project-grid">
-          <article class="project-card">
-            <div class="project-top">
-              <h3>tmux-claude-bot</h3>
-              <span>TypeScript</span>
-            </div>
-            <p>Control Claude Code and Codex agents from Telegram, Feishu/Lark, a CLI, or a TUI.</p>
-            <div class="project-links">
-              <a href="https://github.com/OctopusGarage/tmux-claude-bot">GitHub</a>
-              <a href="/projects/tmux-claude-bot.md">Markdown</a>
-            </div>
+        <div class="line-grid">
+          <article>
+            <span class="line-index">01</span>
+            <h3>Agent Control</h3>
+            <p>Keep coding agents reachable through tmux, chat, CLI, and terminal interfaces.</p>
           </article>
-
-          <article class="project-card">
-            <div class="project-top">
-              <h3>git-auto-sync</h3>
-              <span>Python</span>
-            </div>
-            <p>Auto-sync local repositories with AI-assisted commits, scheduling, and notifications.</p>
-            <div class="project-links">
-              <a href="https://github.com/OctopusGarage/git-auto-sync">GitHub</a>
-              <a href="/projects/git-auto-sync.md">Markdown</a>
-            </div>
+          <article>
+            <span class="line-index">02</span>
+            <h3>Local Automation</h3>
+            <p>Automate Git, network health, and machine routines without hiding operator control.</p>
           </article>
-
-          <article class="project-card">
-            <div class="project-top">
-              <h3>net-auto-switch</h3>
-              <span>Python</span>
-            </div>
-            <p>Keep macOS WiFi and Clash Verge proxy nodes healthy with measured network checks.</p>
-            <div class="project-links">
-              <a href="https://github.com/OctopusGarage/net-auto-switch">GitHub</a>
-              <a href="/projects/net-auto-switch.md">Markdown</a>
-            </div>
-          </article>
-
-          <article class="project-card">
-            <div class="project-top">
-              <h3>mesh-talk</h3>
-              <span>Rust</span>
-            </div>
-            <p>Serverless, end-to-end-encrypted P2P messenger for local networks.</p>
-            <div class="project-links">
-              <a href="https://github.com/OctopusGarage/mesh-talk">GitHub</a>
-              <a href="https://octopusgarage.github.io/mesh-talk/">Demo</a>
-              <a href="/projects/mesh-talk.md">Markdown</a>
-            </div>
-          </article>
-
-          <article class="project-card">
-            <div class="project-top">
-              <h3>bracket-guess</h3>
-              <span>TypeScript</span>
-            </div>
-            <p>Predict knockout brackets and export polished shareable posters in the browser.</p>
-            <div class="project-links">
-              <a href="https://github.com/OctopusGarage/bracket-guess">GitHub</a>
-              <a href="https://octopusgarage.github.io/bracket-guess/">Demo</a>
-              <a href="/projects/bracket-guess.md">Markdown</a>
-            </div>
-          </article>
-
-          <article class="project-card">
-            <div class="project-top">
-              <h3>mbti-lab</h3>
-              <span>Vue</span>
-            </div>
-            <p>Bilingual MBTI personality test with offline support and shareable results.</p>
-            <div class="project-links">
-              <a href="https://github.com/OctopusGarage/mbti-lab">GitHub</a>
-              <a href="https://octopusgarage.github.io/mbti-lab/">Demo</a>
-              <a href="/projects/mbti-lab.md">Markdown</a>
-            </div>
-          </article>
-
-          <article class="project-card">
-            <div class="project-top">
-              <h3>octopusgarage-skills</h3>
-              <span>Shell</span>
-            </div>
-            <p>Reusable Claude Code and Codex skills for OctopusGarage workflows.</p>
-            <div class="project-links">
-              <a href="https://github.com/OctopusGarage/octopusgarage-skills">GitHub</a>
-              <a href="/projects/octopusgarage-skills.md">Markdown</a>
-            </div>
-          </article>
-
-          <article class="project-card">
-            <div class="project-top">
-              <h3>telegram-bridge</h3>
-              <span>TypeScript</span>
-            </div>
-            <p>Bridge Telegram messages into tmux and stream pane output back to chat.</p>
-            <div class="project-links">
-              <a href="https://github.com/OctopusGarage/telegram-bridge">GitHub</a>
-              <a href="/projects/telegram-bridge.md">Markdown</a>
-            </div>
+          <article>
+            <span class="line-index">03</span>
+            <h3>Browser Products</h3>
+            <p>Ship focused client-side products that are fast to open, share, and maintain.</p>
           </article>
         </div>
       </section>
 
-      <section class="section geo" id="geo" aria-labelledby="geo-title">
+      <section class="featured" id="products" aria-labelledby="products-title">
         <div class="section-heading">
-          <p class="eyebrow">AI visibility</p>
-          <h2 id="geo-title">Clean sources for search and AI retrieval.</h2>
+          <p class="eyebrow">Products</p>
+          <h2 id="products-title">Focused tools, not a platform tax.</h2>
         </div>
-        <div class="geo-links">
-          <a href="/robots.txt">robots.txt</a>
-          <a href="/llms.txt">llms.txt</a>
-          <a href="/llms-full.txt">llms-full.txt</a>
-          <a href="/projects.json">projects.json</a>
-          <a href="/sitemap.xml">sitemap.xml</a>
+
+        <div class="featured-list">
+          <article class="feature-card large">
+            <div class="feature-meta">Agent Control · TypeScript</div>
+            <h3>tmux-claude-bot</h3>
+            <p>
+              Drive Claude Code and OpenAI Codex sessions from Telegram, Feishu/Lark, a CLI, or a
+              TUI while the real work stays inside tmux.
+            </p>
+            <a href="https://github.com/OctopusGarage/tmux-claude-bot">Open project</a>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-meta">Local Automation · Python</div>
+            <h3>git-auto-sync</h3>
+            <p>Monitor local repos, produce AI-assisted conventional commits, push, and notify.</p>
+            <a href="https://github.com/OctopusGarage/git-auto-sync">Open project</a>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-meta">Network Automation · Python</div>
+            <h3>net-auto-switch</h3>
+            <p>Keep macOS WiFi and Clash Verge proxy nodes healthy with measured switching.</p>
+            <a href="https://github.com/OctopusGarage/net-auto-switch">Open project</a>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-meta">Private Communication · Rust</div>
+            <h3>mesh-talk</h3>
+            <p>Serverless, end-to-end-encrypted local-network messenger with a Rust core.</p>
+            <a href="https://github.com/OctopusGarage/mesh-talk">Open project</a>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-meta">Browser Lab · TypeScript</div>
+            <h3>bracket-guess</h3>
+            <p>Predict tournament brackets and export shareable posters without a backend.</p>
+            <a href="https://octopusgarage.github.io/bracket-guess/">Open product</a>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-meta">Browser Lab · Vue</div>
+            <h3>mbti-lab</h3>
+            <p>Bilingual personality test with shareable results and offline-friendly behavior.</p>
+            <a href="https://octopusgarage.github.io/mbti-lab/">Open product</a>
+          </article>
         </div>
+      </section>
+
+      <section class="closing" aria-labelledby="closing-title">
+        <p class="eyebrow">Principle</p>
+        <h2 id="closing-title">Local first. Operator visible. Useful before impressive.</h2>
+        <p>
+          The work here is intentionally narrow: small tools that make repeatable workflows easier
+          to run, inspect, and trust.
+        </p>
       </section>
     </main>
 

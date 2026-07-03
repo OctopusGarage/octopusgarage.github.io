@@ -1,0 +1,21 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="OctopusGarage mark">
+  <rect width="256" height="256" rx="56" fill="#050B14"/>
+  <path d="M57 130C57 88.579 88.579 57 130 57C171.421 57 203 88.579 203 130C203 171.421 171.421 203 130 203C88.579 203 57 171.421 57 130Z" stroke="url(#paint0_linear)" stroke-width="14"/>
+  <path d="M91 133C91 111.461 107.461 95 129 95C150.539 95 167 111.461 167 133C167 154.539 150.539 171 129 171C107.461 171 91 154.539 91 133Z" fill="#08111D" stroke="#EAFBFF" stroke-opacity=".9" stroke-width="8"/>
+  <path d="M130 38V57" stroke="#2DD4BF" stroke-width="10" stroke-linecap="round"/>
+  <path d="M130 203V222" stroke="#38BDF8" stroke-width="10" stroke-linecap="round"/>
+  <path d="M218 130H203" stroke="#FB923C" stroke-width="10" stroke-linecap="round"/>
+  <path d="M57 130H38" stroke="#2DD4BF" stroke-width="10" stroke-linecap="round"/>
+  <path d="M194 66L181 79" stroke="#38BDF8" stroke-width="10" stroke-linecap="round"/>
+  <path d="M75 185L62 198" stroke="#FB923C" stroke-width="10" stroke-linecap="round"/>
+  <path d="M194 194L181 181" stroke="#2DD4BF" stroke-width="10" stroke-linecap="round"/>
+  <path d="M75 75L62 62" stroke="#38BDF8" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="130" cy="133" r="10" fill="#2DD4BF"/>
+  <defs>
+    <linearGradient id="paint0_linear" x1="57" y1="57" x2="211" y2="196" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2DD4BF"/>
+      <stop offset=".52" stop-color="#38BDF8"/>
+      <stop offset="1" stop-color="#FB923C"/>
+    </linearGradient>
+  </defs>
+</svg>

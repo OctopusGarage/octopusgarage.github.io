@@ -13,6 +13,7 @@ Static organization website for OctopusGarage.
 
 - `index.html` - public organization homepage.
 - `styles.css` - lightweight responsive styling.
+- `assets/octopusgarage-*.svg` - website logo and GitHub profile artwork.
 - `robots.txt` - search and AI crawler policy.
 - `llms.txt` - short AI-readable organization summary.
 - `llms-full.txt` - long-form AI-readable organization profile.
@@ -20,4 +21,4 @@ Static organization website for OctopusGarage.
 - `projects/*.md` - Markdown knowledge pages for public projects.
 - `sitemap.xml` - crawlable URL list.
 
-Private repositories are intentionally excluded from the public website and GEO files.
+The AI-readable files are intentionally available at stable URLs but are not listed in the visible homepage navigation. Private repositories are excluded from the public website and GEO files.

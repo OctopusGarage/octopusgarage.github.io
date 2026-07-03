@@ -1,0 +1,23 @@
+<svg width="920" height="192" viewBox="0 0 920 192" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="OctopusGarage">
+  <rect width="192" height="192" rx="42" fill="#050B14"/>
+  <path d="M43 98C43 66.569 66.569 43 98 43C129.431 43 153 66.569 153 98C153 129.431 129.431 153 98 153C66.569 153 43 129.431 43 98Z" stroke="url(#paint0_linear)" stroke-width="10"/>
+  <path d="M69 100C69 83.984 81.984 71 98 71C114.016 71 127 83.984 127 100C127 116.016 114.016 129 98 129C81.984 129 69 116.016 69 100Z" fill="#08111D" stroke="#EAFBFF" stroke-opacity=".9" stroke-width="6"/>
+  <path d="M98 28V43" stroke="#2DD4BF" stroke-width="8" stroke-linecap="round"/>
+  <path d="M98 153V168" stroke="#38BDF8" stroke-width="8" stroke-linecap="round"/>
+  <path d="M168 98H153" stroke="#FB923C" stroke-width="8" stroke-linecap="round"/>
+  <path d="M43 98H28" stroke="#2DD4BF" stroke-width="8" stroke-linecap="round"/>
+  <path d="M148 48L138 58" stroke="#38BDF8" stroke-width="8" stroke-linecap="round"/>
+  <path d="M58 138L48 148" stroke="#FB923C" stroke-width="8" stroke-linecap="round"/>
+  <path d="M148 148L138 138" stroke="#2DD4BF" stroke-width="8" stroke-linecap="round"/>
+  <path d="M58 58L48 48" stroke="#38BDF8" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="98" cy="100" r="8" fill="#2DD4BF"/>
+  <text x="232" y="113" fill="#EEF6FF" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="62" font-weight="760">OctopusGarage</text>
+  <text x="236" y="150" fill="#8BA4B8" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="22" font-weight="500">Build More. Reach Everywhere.</text>
+  <defs>
+    <linearGradient id="paint0_linear" x1="43" y1="43" x2="160" y2="148" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2DD4BF"/>
+      <stop offset=".52" stop-color="#38BDF8"/>
+      <stop offset="1" stop-color="#FB923C"/>
+    </linearGradient>
+  </defs>
+</svg>
