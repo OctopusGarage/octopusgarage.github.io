@@ -1,0 +1,25 @@
+# OctopusGarage
+
+> Small, practical open-source tools for AI agents, local automation, private networking, and browser-native products.
+
+## Links
+
+- [Website](https://octopusgarage.github.io/)
+- [GitHub organization](https://github.com/OctopusGarage)
+- [Full AI-readable profile](https://octopusgarage.github.io/llms-full.txt)
+- [Project data](https://octopusgarage.github.io/projects.json)
+
+## Public Projects
+
+- [tmux-claude-bot](https://octopusgarage.github.io/projects/tmux-claude-bot.md): control Claude Code and Codex agents from Telegram, Feishu/Lark, a CLI, or a TUI.
+- [git-auto-sync](https://octopusgarage.github.io/projects/git-auto-sync.md): auto-sync local repositories with AI-assisted commits and notifications.
+- [net-auto-switch](https://octopusgarage.github.io/projects/net-auto-switch.md): keep macOS WiFi and Clash Verge proxy nodes healthy.
+- [mesh-talk](https://octopusgarage.github.io/projects/mesh-talk.md): serverless encrypted LAN messenger.
+- [bracket-guess](https://octopusgarage.github.io/projects/bracket-guess.md): browser-based bracket prediction with poster export.
+- [mbti-lab](https://octopusgarage.github.io/projects/mbti-lab.md): bilingual MBTI personality test with shareable results.
+- [octopusgarage-skills](https://octopusgarage.github.io/projects/octopusgarage-skills.md): reusable Claude Code and Codex skills.
+- [telegram-bridge](https://octopusgarage.github.io/projects/telegram-bridge.md): bridge Telegram messages into a tmux pane.
+
+## About
+
+OctopusGarage connects three recurring workflows: controlling long-running AI coding agents, keeping local machines reliable, and publishing small browser-native products. The public work is intentionally narrow and practical: each project solves one concrete workflow and exposes clear documentation for humans and AI retrieval systems.

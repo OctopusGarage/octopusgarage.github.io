@@ -1,0 +1,82 @@
+{
+  "organization": {
+    "name": "OctopusGarage",
+    "url": "https://github.com/OctopusGarage",
+    "website": "https://octopusgarage.github.io/",
+    "description": "Small, practical open-source tools for AI agents, local automation, private networking, and browser-native products."
+  },
+  "projects": [
+    {
+      "name": "tmux-claude-bot",
+      "category": "Agent Control",
+      "language": "TypeScript",
+      "description": "Control Claude Code and Codex agents from Telegram, Feishu/Lark, a CLI, or a TUI.",
+      "github": "https://github.com/OctopusGarage/tmux-claude-bot",
+      "homepage": "https://github.com/OctopusGarage/tmux-claude-bot/releases/latest",
+      "markdown": "https://octopusgarage.github.io/projects/tmux-claude-bot.md"
+    },
+    {
+      "name": "git-auto-sync",
+      "category": "Local Automation",
+      "language": "Python",
+      "description": "Auto-sync local repositories with AI-assisted commits, scheduling, and notifications.",
+      "github": "https://github.com/OctopusGarage/git-auto-sync",
+      "homepage": "https://github.com/OctopusGarage/git-auto-sync",
+      "markdown": "https://octopusgarage.github.io/projects/git-auto-sync.md"
+    },
+    {
+      "name": "net-auto-switch",
+      "category": "Local Automation",
+      "language": "Python",
+      "description": "Keep macOS WiFi and Clash Verge proxy nodes healthy with measured network checks.",
+      "github": "https://github.com/OctopusGarage/net-auto-switch",
+      "homepage": "",
+      "markdown": "https://octopusgarage.github.io/projects/net-auto-switch.md"
+    },
+    {
+      "name": "mesh-talk",
+      "category": "Private Communication",
+      "language": "Rust",
+      "description": "Serverless, end-to-end-encrypted P2P messenger for local networks.",
+      "github": "https://github.com/OctopusGarage/mesh-talk",
+      "homepage": "https://octopusgarage.github.io/mesh-talk/",
+      "markdown": "https://octopusgarage.github.io/projects/mesh-talk.md"
+    },
+    {
+      "name": "bracket-guess",
+      "category": "Browser Labs",
+      "language": "TypeScript",
+      "description": "Predict knockout brackets and export polished shareable posters in the browser.",
+      "github": "https://github.com/OctopusGarage/bracket-guess",
+      "homepage": "https://octopusgarage.github.io/bracket-guess/",
+      "markdown": "https://octopusgarage.github.io/projects/bracket-guess.md"
+    },
+    {
+      "name": "mbti-lab",
+      "category": "Browser Labs",
+      "language": "Vue",
+      "description": "Bilingual MBTI personality test with offline support and shareable results.",
+      "github": "https://github.com/OctopusGarage/mbti-lab",
+      "homepage": "https://octopusgarage.github.io/mbti-lab/",
+      "markdown": "https://octopusgarage.github.io/projects/mbti-lab.md"
+    },
+    {
+      "name": "octopusgarage-skills",
+      "category": "Agent Skills",
+      "language": "Shell",
+      "description": "Reusable Claude Code and Codex skills for OctopusGarage workflows.",
+      "github": "https://github.com/OctopusGarage/octopusgarage-skills",
+      "homepage": "",
+      "markdown": "https://octopusgarage.github.io/projects/octopusgarage-skills.md"
+    },
+    {
+      "name": "telegram-bridge",
+      "category": "Agent Control",
+      "language": "TypeScript",
+      "description": "Bridge Telegram messages into tmux and stream pane output back to chat.",
+      "github": "https://github.com/OctopusGarage/telegram-bridge",
+      "homepage": "",
+      "markdown": "https://octopusgarage.github.io/projects/telegram-bridge.md"
+    }
+  ]
+}
