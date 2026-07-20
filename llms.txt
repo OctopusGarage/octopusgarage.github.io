@@ -1,6 +1,6 @@
 # OctopusGarage
 
-> Small, practical open-source tools for AI agents, local automation, private networking, and browser-native products.
+> Small, practical open-source tools for AI agents, local automation, private knowledge, networking, and browser-native products.
 
 ## Links
 
@@ -12,14 +12,18 @@
 ## Public Projects
 
 - [tmux-claude-bot](https://octopusgarage.github.io/projects/tmux-claude-bot.md): control Claude Code and Codex agents from Telegram, Feishu/Lark, a CLI, or a TUI.
+- [alcove](https://octopusgarage.github.io/projects/alcove.md): local-first personal memory for agent workflows.
+- [clipsmith](https://octopusgarage.github.io/projects/clipsmith.md): capture posts, articles, media, and OCR into portable local bundles.
 - [git-auto-sync](https://octopusgarage.github.io/projects/git-auto-sync.md): auto-sync local repositories with AI-assisted commits and notifications.
 - [net-auto-switch](https://octopusgarage.github.io/projects/net-auto-switch.md): keep macOS WiFi and Clash Verge proxy nodes healthy.
+- [envsentinel](https://octopusgarage.github.io/projects/envsentinel.md): audit local environment signals for AI coding CLIs.
 - [mesh-talk](https://octopusgarage.github.io/projects/mesh-talk.md): serverless encrypted LAN messenger.
 - [bracket-guess](https://octopusgarage.github.io/projects/bracket-guess.md): browser-based bracket prediction with poster export.
 - [mbti-lab](https://octopusgarage.github.io/projects/mbti-lab.md): bilingual MBTI personality test with shareable results.
 - [octopusgarage-skills](https://octopusgarage.github.io/projects/octopusgarage-skills.md): reusable Claude Code and Codex skills.
+- [english-pilot](https://octopusgarage.github.io/projects/english-pilot.md): English conversation gate, coaching assistant, and review system for AI workflows.
 - [telegram-bridge](https://octopusgarage.github.io/projects/telegram-bridge.md): bridge Telegram messages into a tmux pane.
 
 ## About
 
-OctopusGarage connects three recurring workflows: controlling long-running AI coding agents, keeping local machines reliable, and publishing small browser-native products. The public work is intentionally narrow and practical: each project solves one concrete workflow and exposes clear documentation for humans and AI retrieval systems.
+OctopusGarage connects four recurring workflows: controlling long-running AI coding agents, keeping local machines reliable, capturing private knowledge, and publishing small browser-native products. The public work is intentionally narrow and practical: each project solves one concrete workflow and exposes clear documentation for humans and AI retrieval systems.

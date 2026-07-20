@@ -3,11 +3,12 @@
     "name": "OctopusGarage",
     "url": "https://github.com/OctopusGarage",
     "website": "https://octopusgarage.github.io/",
-    "description": "Small, practical open-source tools for AI agents, local automation, private networking, and browser-native products."
+    "description": "Small, practical open-source tools for AI agents, local automation, private knowledge, networking, and browser-native products."
   },
   "projects": [
     {
       "name": "tmux-claude-bot",
+      "emoji": "🤖",
       "category": "Agent Control",
       "language": "TypeScript",
       "description": "Control Claude Code and Codex agents from Telegram, Feishu/Lark, a CLI, or a TUI.",
@@ -16,7 +17,28 @@
       "markdown": "https://octopusgarage.github.io/projects/tmux-claude-bot.md"
     },
     {
+      "name": "alcove",
+      "emoji": "🧠",
+      "category": "Knowledge Tools",
+      "language": "Python",
+      "description": "Local-first personal memory for agent workflows.",
+      "github": "https://github.com/OctopusGarage/alcove",
+      "homepage": "https://octopusgarage.github.io/alcove/",
+      "markdown": "https://octopusgarage.github.io/projects/alcove.md"
+    },
+    {
+      "name": "clipsmith",
+      "emoji": "✂️",
+      "category": "Knowledge Tools",
+      "language": "TypeScript",
+      "description": "Capture posts, articles, media, and OCR into portable local bundles.",
+      "github": "https://github.com/OctopusGarage/clipsmith",
+      "homepage": "https://octopusgarage.github.io/clipsmith",
+      "markdown": "https://octopusgarage.github.io/projects/clipsmith.md"
+    },
+    {
       "name": "git-auto-sync",
+      "emoji": "🔄",
       "category": "Local Automation",
       "language": "Python",
       "description": "Auto-sync local repositories with AI-assisted commits, scheduling, and notifications.",
@@ -26,6 +48,7 @@
     },
     {
       "name": "net-auto-switch",
+      "emoji": "🛜",
       "category": "Local Automation",
       "language": "Python",
       "description": "Keep macOS WiFi and Clash Verge proxy nodes healthy with measured network checks.",
@@ -34,7 +57,18 @@
       "markdown": "https://octopusgarage.github.io/projects/net-auto-switch.md"
     },
     {
+      "name": "envsentinel",
+      "emoji": "🛡️",
+      "category": "Local Automation",
+      "language": "Go",
+      "description": "Audit local environment signals for AI coding CLIs.",
+      "github": "https://github.com/OctopusGarage/envsentinel",
+      "homepage": "",
+      "markdown": "https://octopusgarage.github.io/projects/envsentinel.md"
+    },
+    {
       "name": "mesh-talk",
+      "emoji": "🔐",
       "category": "Private Communication",
       "language": "Rust",
       "description": "Serverless, end-to-end-encrypted P2P messenger for local networks.",
@@ -44,6 +78,7 @@
     },
     {
       "name": "bracket-guess",
+      "emoji": "🏆",
       "category": "Browser Labs",
       "language": "TypeScript",
       "description": "Predict knockout brackets and export polished shareable posters in the browser.",
@@ -53,6 +88,7 @@
     },
     {
       "name": "mbti-lab",
+      "emoji": "🧭",
       "category": "Browser Labs",
       "language": "Vue",
       "description": "Bilingual MBTI personality test with offline support and shareable results.",
@@ -62,6 +98,7 @@
     },
     {
       "name": "octopusgarage-skills",
+      "emoji": "🧰",
       "category": "Agent Skills",
       "language": "Shell",
       "description": "Reusable Claude Code and Codex skills for OctopusGarage workflows.",
@@ -70,7 +107,18 @@
       "markdown": "https://octopusgarage.github.io/projects/octopusgarage-skills.md"
     },
     {
+      "name": "english-pilot",
+      "emoji": "🗣️",
+      "category": "Knowledge Tools",
+      "language": "TypeScript",
+      "description": "English conversation gate, coaching assistant, and review system for AI workflows.",
+      "github": "https://github.com/OctopusGarage/english-pilot",
+      "homepage": "",
+      "markdown": "https://octopusgarage.github.io/projects/english-pilot.md"
+    },
+    {
       "name": "telegram-bridge",
+      "emoji": "📬",
       "category": "Agent Control",
       "language": "TypeScript",
       "description": "Bridge Telegram messages into tmux and stream pane output back to chat.",
