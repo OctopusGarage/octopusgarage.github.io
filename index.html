@@ -6,23 +6,30 @@
     <title>OctopusGarage</title>
     <meta
       name="description"
-      content="OctopusGarage builds focused tools for AI agent control, local automation, private knowledge, and browser-native products."
+      content="OctopusGarage builds compact open-source systems for agent control, local automation, private knowledge, and browser-native products."
     />
     <link rel="canonical" href="https://octopusgarage.github.io/" />
     <link rel="alternate" type="text/markdown" href="/llms.txt" title="AI-readable site summary" />
     <link rel="alternate" type="application/json" href="/projects.json" title="Project data" />
     <link rel="icon" href="/assets/octopusgarage-mark.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500;600;700&amp;family=Inter:wght@400;500;600;700;800&amp;family=Newsreader:opsz,wght@6..72,500;6..72,650&amp;display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="/styles.css" />
   </head>
   <body>
     <header class="site-header">
       <a class="brand" href="/" aria-label="OctopusGarage home">
-        <img src="/assets/octopusgarage-mark.svg" alt="" width="36" height="36" />
+        <img src="/assets/octopusgarage-mark.svg" alt="" width="38" height="38" />
         <span>OctopusGarage</span>
       </a>
       <nav class="nav" aria-label="Primary navigation">
-        <a href="#products">Products</a>
         <a href="#system">System</a>
+        <a href="#products">Projects</a>
+        <a href="#principles">Principles</a>
         <a href="https://github.com/OctopusGarage">GitHub</a>
       </nav>
     </header>
@@ -30,157 +37,164 @@
     <main>
       <section class="hero" aria-labelledby="hero-title">
         <div class="hero-copy">
-          <p class="eyebrow">Agent control · local systems · knowledge tools</p>
-          <h1 id="hero-title">Operational software for people building with AI agents.</h1>
+          <p class="eyebrow">Agent operators / local systems / private knowledge</p>
+          <h1 id="hero-title">
+            <span>A garage</span>
+            <span>for durable</span>
+            <span>AI work.</span>
+          </h1>
           <p class="lead">
-            OctopusGarage turns repeated developer workflows into compact tools: remote agent
-            control, local machine automation, private knowledge capture, and polished
-            browser-native experiments.
+            OctopusGarage builds compact open-source tools for the layer around coding agents:
+            remote control, machine upkeep, source capture, private memory, and focused
+            browser-native products.
           </p>
           <div class="actions" aria-label="Primary actions">
-            <a class="button primary" href="#products">Explore products</a>
-            <a class="button secondary" href="https://github.com/OctopusGarage">View GitHub</a>
+            <a class="button primary" href="#products">Browse the system</a>
+            <a class="button secondary" href="https://github.com/OctopusGarage">Open GitHub</a>
           </div>
         </div>
 
-        <div class="signal-console" aria-label="OctopusGarage product system illustration">
-          <div class="console-top">
-            <img src="/assets/octopusgarage-mark.svg" alt="" width="42" height="42" />
+        <aside class="routing-board" aria-label="OctopusGarage routing board">
+          <div class="board-header">
+            <img src="/assets/octopusgarage-mark.svg" alt="" width="44" height="44" />
             <div>
-              <span class="console-title">OctopusGarage OS</span>
-              <span class="console-subtitle">agent workflows online</span>
+              <span class="board-kicker">workbench online</span>
+              <strong>OctopusGarage</strong>
             </div>
           </div>
-          <div class="console-grid">
-            <div class="console-cell active">
-              <span>agent</span>
-              <strong>tmux</strong>
-            </div>
-            <div class="console-cell">
-              <span>memory</span>
-              <strong>alcove</strong>
-            </div>
-            <div class="console-cell warm">
-              <span>network</span>
-              <strong>proxy</strong>
-            </div>
-            <div class="console-cell">
-              <span>capture</span>
-              <strong>clip</strong>
-            </div>
+          <div class="board-map" aria-hidden="true">
+            <span class="node core">agent</span>
+            <span class="node n1">tmux</span>
+            <span class="node n2">capture</span>
+            <span class="node n3">memory</span>
+            <span class="node n4">network</span>
+            <span class="node n5">browser</span>
+            <span class="trace t1"></span>
+            <span class="trace t2"></span>
+            <span class="trace t3"></span>
+            <span class="trace t4"></span>
+            <span class="trace t5"></span>
           </div>
-          <div class="trace">
-            <span></span>
-            <span></span>
-            <span></span>
-          </div>
+          <dl class="board-readout">
+            <div>
+              <dt>Primary loop</dt>
+              <dd>agent -> operator -> repo</dd>
+            </div>
+            <div>
+              <dt>Design constraint</dt>
+              <dd>local-first, inspectable, reversible</dd>
+            </div>
+          </dl>
+        </aside>
+      </section>
+
+      <section class="system" id="system" aria-labelledby="system-title">
+        <div class="section-heading">
+          <p class="eyebrow">What this is</p>
+          <h2 id="system-title">A small operating layer, not another platform.</h2>
+        </div>
+        <div class="system-grid">
+          <article>
+            <span class="area-label">Control</span>
+            <h3>Reach work that keeps running.</h3>
+            <p>Remote-control agent sessions through tmux, chat, CLI, and terminal interfaces.</p>
+          </article>
+          <article>
+            <span class="area-label">Automation</span>
+            <h3>Let machines handle repeatable chores.</h3>
+            <p>Keep Git, network quality, and local environment checks visible and reviewable.</p>
+          </article>
+          <article>
+            <span class="area-label">Knowledge</span>
+            <h3>Turn sources into working memory.</h3>
+            <p>Capture articles, posts, OCR, notes, and language feedback into local workflows.</p>
+          </article>
+          <article>
+            <span class="area-label">Products</span>
+            <h3>Ship focused browser-native tools.</h3>
+            <p>Build complete client-side experiences that are fast to open, share, and maintain.</p>
+          </article>
         </div>
       </section>
 
-      <section class="product-lines" id="system" aria-labelledby="system-title">
-        <div class="section-heading">
-          <p class="eyebrow">What it is</p>
-          <h2 id="system-title">A small stack for controlling work that keeps running.</h2>
-        </div>
-        <div class="line-grid">
-          <article>
-            <span class="line-index">01</span>
-            <h3>Agent Control</h3>
-            <p>Keep coding agents reachable through tmux, chat, CLI, and terminal interfaces.</p>
-          </article>
-          <article>
-            <span class="line-index">02</span>
-            <h3>Local Automation</h3>
-            <p>Automate Git, network health, and machine routines without hiding operator control.</p>
-          </article>
-          <article>
-            <span class="line-index">03</span>
-            <h3>Knowledge Tools</h3>
-            <p>Capture memory, articles, media, OCR, and language feedback into local workflows.</p>
-          </article>
-          <article>
-            <span class="line-index">04</span>
-            <h3>Browser Products</h3>
-            <p>Ship focused client-side products that are fast to open, share, and maintain.</p>
-          </article>
-        </div>
-      </section>
-
-      <section class="featured" id="products" aria-labelledby="products-title">
-        <div class="section-heading">
-          <p class="eyebrow">Products</p>
-          <h2 id="products-title">Focused tools, not a platform tax.</h2>
+      <section class="products" id="products" aria-labelledby="products-title">
+        <div class="section-heading split">
+          <div>
+            <p class="eyebrow">Project index</p>
+            <h2 id="products-title">Tools grouped by the work they protect.</h2>
+          </div>
+          <a class="text-link" href="/projects.json">Structured data</a>
         </div>
 
-        <div class="featured-list">
-          <article class="feature-card large">
-            <div class="feature-meta">Agent Control · TypeScript</div>
+        <div class="product-shelf">
+          <article class="project spotlight">
+            <div class="project-meta">Agent Control / TypeScript</div>
             <h3>tmux-claude-bot</h3>
             <p>
-              Drive Claude Code and OpenAI Codex sessions from Telegram, Feishu/Lark, a CLI, or a
-              TUI while the real work stays inside tmux.
+              Control Claude Code and OpenAI Codex sessions from Telegram, Feishu/Lark, a CLI, or a
+              TUI while the real process stays inside tmux.
             </p>
-            <a href="https://github.com/OctopusGarage/tmux-claude-bot">Open project</a>
+            <a href="https://github.com/OctopusGarage/tmux-claude-bot">Open repository</a>
           </article>
 
-          <article class="feature-card">
-            <div class="feature-meta">Knowledge Tools · Python</div>
+          <article class="project">
+            <div class="project-meta">Knowledge / Python</div>
             <h3>alcove</h3>
             <p>Local-first personal memory for agent workflows and private retrieval.</p>
             <a href="https://octopusgarage.github.io/alcove/">Open product</a>
           </article>
 
-          <article class="feature-card">
-            <div class="feature-meta">Knowledge Tools · TypeScript</div>
+          <article class="project">
+            <div class="project-meta">Knowledge / TypeScript</div>
             <h3>clipsmith</h3>
             <p>Capture posts, articles, media, and OCR into portable local bundles.</p>
             <a href="https://octopusgarage.github.io/clipsmith">Open product</a>
           </article>
 
-          <article class="feature-card">
-            <div class="feature-meta">Local Automation · Python</div>
+          <article class="project">
+            <div class="project-meta">Automation / Python</div>
             <h3>git-auto-sync</h3>
-            <p>Monitor local repos, produce AI-assisted conventional commits, push, and notify.</p>
-            <a href="https://github.com/OctopusGarage/git-auto-sync">Open project</a>
+            <p>Monitor repos, stage carefully, write conventional commits, push, and notify.</p>
+            <a href="https://github.com/OctopusGarage/git-auto-sync">Open repository</a>
           </article>
 
-          <article class="feature-card">
-            <div class="feature-meta">Network Automation · Python</div>
+          <article class="project">
+            <div class="project-meta">Automation / Python</div>
             <h3>net-auto-switch</h3>
             <p>Keep macOS WiFi and Clash Verge proxy nodes healthy with measured switching.</p>
-            <a href="https://github.com/OctopusGarage/net-auto-switch">Open project</a>
+            <a href="https://github.com/OctopusGarage/net-auto-switch">Open repository</a>
           </article>
 
-          <article class="feature-card">
-            <div class="feature-meta">Local Automation · Go</div>
+          <article class="project">
+            <div class="project-meta">Automation / Go</div>
             <h3>envsentinel</h3>
             <p>Audit local environment signals for AI coding CLIs from the terminal.</p>
-            <a href="https://github.com/OctopusGarage/envsentinel">Open project</a>
+            <a href="https://github.com/OctopusGarage/envsentinel">Open repository</a>
           </article>
 
-          <article class="feature-card">
-            <div class="feature-meta">Private Communication · Rust</div>
+          <article class="project">
+            <div class="project-meta">Communication / Rust</div>
             <h3>mesh-talk</h3>
-            <p>Serverless, end-to-end-encrypted local-network messenger with a Rust core.</p>
+            <p>Serverless, end-to-end-encrypted local-network messaging with a Rust core.</p>
             <a href="https://octopusgarage.github.io/mesh-talk/">Open product</a>
           </article>
 
-          <article class="feature-card">
-            <div class="feature-meta">Knowledge Tools · TypeScript</div>
+          <article class="project">
+            <div class="project-meta">Learning / TypeScript</div>
             <h3>english-pilot</h3>
             <p>Conversation gate, coaching assistant, and English review system for AI workflows.</p>
-            <a href="https://github.com/OctopusGarage/english-pilot">Open project</a>
+            <a href="https://github.com/OctopusGarage/english-pilot">Open repository</a>
           </article>
 
-          <article class="feature-card">
-            <div class="feature-meta">Browser Lab · TypeScript</div>
+          <article class="project">
+            <div class="project-meta">Browser Lab / TypeScript</div>
             <h3>bracket-guess</h3>
             <p>Predict tournament brackets and export shareable posters without a backend.</p>
             <a href="https://octopusgarage.github.io/bracket-guess/">Open product</a>
           </article>
 
-          <article class="feature-card">
-            <div class="feature-meta">Browser Lab · Vue</div>
+          <article class="project">
+            <div class="project-meta">Browser Lab / Vue</div>
             <h3>mbti-lab</h3>
             <p>Bilingual personality test with shareable results and offline-friendly behavior.</p>
             <a href="https://octopusgarage.github.io/mbti-lab/">Open product</a>
@@ -188,19 +202,25 @@
         </div>
       </section>
 
-      <section class="closing" aria-labelledby="closing-title">
-        <p class="eyebrow">Principle</p>
-        <h2 id="closing-title">Local first. Operator visible. Useful before impressive.</h2>
-        <p>
-          The work here is intentionally narrow: small tools that make repeatable workflows easier
-          to run, inspect, and trust.
-        </p>
+      <section class="principles" id="principles" aria-labelledby="principles-title">
+        <div class="section-heading">
+          <p class="eyebrow">How projects are judged</p>
+          <h2 id="principles-title">Local first. Operator visible. Useful before impressive.</h2>
+        </div>
+        <div class="principle-list">
+          <p>Private data and working state should stay on the machine whenever possible.</p>
+          <p>Automation should expose intent, output, and approval points.</p>
+          <p>Each repository should solve one concrete workflow with a small public surface.</p>
+        </div>
       </section>
     </main>
 
     <footer class="footer">
       <span>OctopusGarage</span>
-      <a href="https://github.com/OctopusGarage">github.com/OctopusGarage</a>
+      <div>
+        <a href="/llms.txt">llms.txt</a>
+        <a href="https://github.com/OctopusGarage">GitHub</a>
+      </div>
     </footer>
   </body>
 </html>
