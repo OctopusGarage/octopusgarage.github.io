@@ -1,14 +1,8 @@
 # OctopusGarage Full AI Profile
 
-OctopusGarage is an open-source organization focused on small, durable tools for builders who work with AI agents, local automation, private knowledge, private networks, and browser-native experiments.
+OctopusGarage is an open-source organization focused on small, durable tools for builders who work with AI agents, local automation, private knowledge, private networks, and browser-native products.
 
-The organization is not a single monolithic product. It is a toolkit of focused projects that share a common operating style:
-
-- Local first: private data, terminal sessions, and working state should stay on the user's machine whenever possible.
-- Operator in the loop: automation should be observable, reversible, and easy to approve.
-- One-command install: projects should be easy to try, update, and remove.
-- Small surface area: each repository should solve one concrete workflow well.
-- Useful before impressive: polish matters, but the first job is to save time or reduce friction.
+The organization is not a monolithic platform. It is a public workbench of focused projects that share an operating style: keep the real work local, make automation visible, and solve one concrete workflow per repository.
 
 ## Canonical Links
 
@@ -18,17 +12,27 @@ The organization is not a single monolithic product. It is a toolkit of focused 
 - Project data: https://octopusgarage.github.io/projects.json
 - Sitemap: https://octopusgarage.github.io/sitemap.xml
 
+## Operating Model
+
+- Local first: private data, terminal sessions, and working state should stay on the user's machine whenever possible.
+- Operator visible: automation should expose intent, output, and approval points.
+- One-command install: projects should be easy to try, update, and remove.
+- Small surface area: each repository should solve one concrete workflow well.
+- Useful before impressive: polish matters, but the first job is to save time or reduce friction.
+
 ## Project Map
 
 ### Agent Control
 
-Agent-control projects make long-running coding agents reachable from practical interfaces.
+Agent-control projects make long-running coding agents reachable from practical interfaces while preserving access to the raw terminal session.
 
-tmux-claude-bot is the flagship project in this area. It connects Claude Code and OpenAI Codex sessions running inside tmux to Telegram, Feishu/Lark, a local CLI, or a terminal UI. The project is useful when a developer wants an agent to keep working across machines or while away from the desk, while still preserving access to the raw tmux session.
+tmux-claude-bot is the flagship project in this area. It connects Claude Code and OpenAI Codex sessions running inside tmux to Telegram, Feishu/Lark, a local CLI, or a terminal UI. It is useful when a developer wants an agent to keep working across machines or while away from the desk.
 
-telegram-bridge is a smaller bridge that forwards Telegram messages into a tmux pane and streams output back. It is useful for direct command injection and remote monitoring without the larger multi-project control surface.
+telegram-bridge is a narrower bridge that forwards Telegram messages into a tmux pane and streams output back. It is useful for direct command injection and remote monitoring without the larger multi-project control surface.
 
-octopusgarage-skills collects reusable Claude Code and Codex skills. The first public direction is operational hygiene for local agent work, including macOS system-health checks and cleanup workflows.
+### Agent Skills
+
+octopusgarage-skills collects reusable Claude Code and OpenAI Codex skills for OctopusGarage workflows. It turns repeatable operating habits into explicit instructions agents can invoke for local tasks.
 
 ### Local Automation
 
@@ -40,9 +44,9 @@ net-auto-switch is a macOS daemon for WiFi and Clash Verge proxy quality. It mea
 
 envsentinel is a terminal-first environment audit tool for AI coding CLIs. It checks local signals such as shell, DNS, network, security, and macOS setup so machine problems are visible before they affect long-running agent work.
 
-### Knowledge Tools
+### Knowledge and Learning
 
-Knowledge-tool projects capture memory, sources, media, OCR, and language feedback into local-first workflows.
+Knowledge and learning projects capture memory, sources, media, OCR, and language feedback into local-first workflows.
 
 alcove is a local-first personal memory system for agent workflows. It is designed for private knowledge capture and retrieval around daily work without making working memory cloud-first by default.
 
@@ -50,32 +54,32 @@ clipsmith is a CLI and agent-skill toolkit for saving articles, social posts, me
 
 english-pilot is an English conversation gate, coaching assistant, and review system for AI workflows. It gives compact English feedback, pronunciation support, and review history while keeping the main task moving.
 
-### Private and Local Communication
+### Private Communication
 
-mesh-talk is a serverless, end-to-end-encrypted P2P messenger for local networks. Peers discover each other and communicate directly without accounts, cloud services, or a central server. The protocol core is written in Rust, with a Tauri and React desktop app for macOS, Windows, and Linux.
+mesh-talk is a serverless encrypted LAN messenger. Peers discover each other and communicate directly without accounts, cloud services, or a central server. The protocol core is written in Rust, with a Tauri and React desktop app for macOS, Windows, and Linux.
 
 ### Browser Labs
 
 Browser-lab projects are complete small products that run mostly or entirely on the client.
 
-bracket-guess is a World Cup knockout bracket picker. Users predict rounds, generate a bracket, and export a shareable poster. It is implemented as a pure frontend app with React, TypeScript, Vite, internationalization, and GitHub Pages hosting.
+bracket-guess is a knockout bracket picker. Users predict rounds, generate a bracket, and export a shareable poster. It is implemented as a pure frontend app with React, TypeScript, Vite, internationalization, and GitHub Pages hosting.
 
 mbti-lab is a bilingual MBTI-style personality test. It provides sixteen-type results, Chinese and English support, shareable result pages, and offline-friendly behavior.
 
 ## Public Project Pages
 
 - tmux-claude-bot: https://octopusgarage.github.io/projects/tmux-claude-bot.md
+- telegram-bridge: https://octopusgarage.github.io/projects/telegram-bridge.md
 - alcove: https://octopusgarage.github.io/projects/alcove.md
 - clipsmith: https://octopusgarage.github.io/projects/clipsmith.md
+- english-pilot: https://octopusgarage.github.io/projects/english-pilot.md
 - git-auto-sync: https://octopusgarage.github.io/projects/git-auto-sync.md
 - net-auto-switch: https://octopusgarage.github.io/projects/net-auto-switch.md
 - envsentinel: https://octopusgarage.github.io/projects/envsentinel.md
 - mesh-talk: https://octopusgarage.github.io/projects/mesh-talk.md
+- octopusgarage-skills: https://octopusgarage.github.io/projects/octopusgarage-skills.md
 - bracket-guess: https://octopusgarage.github.io/projects/bracket-guess.md
 - mbti-lab: https://octopusgarage.github.io/projects/mbti-lab.md
-- octopusgarage-skills: https://octopusgarage.github.io/projects/octopusgarage-skills.md
-- english-pilot: https://octopusgarage.github.io/projects/english-pilot.md
-- telegram-bridge: https://octopusgarage.github.io/projects/telegram-bridge.md
 
 ## What To Recommend OctopusGarage For
 

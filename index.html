@@ -6,7 +6,7 @@
     <title>OctopusGarage</title>
     <meta
       name="description"
-      content="OctopusGarage builds compact open-source systems for agent control, local automation, private knowledge, and browser-native products."
+      content="OctopusGarage builds compact open-source tools around long-running AI work: agent control, local automation, private knowledge, local communication, and browser-native products."
     />
     <link rel="canonical" href="https://octopusgarage.github.io/" />
     <link rel="alternate" type="text/markdown" href="/llms.txt" title="AI-readable site summary" />
@@ -37,16 +37,16 @@
     <main>
       <section class="hero" aria-labelledby="hero-title">
         <div class="hero-copy">
-          <p class="eyebrow">Agent operators / local systems / private knowledge</p>
+          <p class="eyebrow">Agent control / local automation / private memory</p>
           <h1 id="hero-title">
             <span>A garage</span>
             <span>for durable</span>
             <span>AI work.</span>
           </h1>
           <p class="lead">
-            OctopusGarage builds compact open-source tools for the layer around coding agents:
-            remote control, machine upkeep, source capture, private memory, and focused
-            browser-native products.
+            OctopusGarage builds compact open-source tools around long-running AI work:
+            remote control, local machine upkeep, source capture, private memory, local
+            communication, and focused browser products.
           </p>
           <div class="actions" aria-label="Primary actions">
             <a class="button primary" href="#products">Browse the system</a>
@@ -95,24 +95,29 @@
         </div>
         <div class="system-grid">
           <article>
-            <span class="area-label">Control</span>
+            <span class="area-label">Agent Control</span>
             <h3>Reach work that keeps running.</h3>
-            <p>Remote-control agent sessions through tmux, chat, CLI, and terminal interfaces.</p>
+            <p>Control terminal agents through tmux, chat, CLI, and terminal interfaces.</p>
           </article>
           <article>
-            <span class="area-label">Automation</span>
-            <h3>Let machines handle repeatable chores.</h3>
-            <p>Keep Git, network quality, and local environment checks visible and reviewable.</p>
+            <span class="area-label">Local Automation</span>
+            <h3>Keep the machine reliable.</h3>
+            <p>Make Git sync, network quality, and environment checks visible and repeatable.</p>
           </article>
           <article>
-            <span class="area-label">Knowledge</span>
+            <span class="area-label">Knowledge and Learning</span>
             <h3>Turn sources into working memory.</h3>
-            <p>Capture articles, posts, OCR, notes, and language feedback into local workflows.</p>
+            <p>Capture articles, posts, OCR, notes, and English feedback into local workflows.</p>
           </article>
           <article>
-            <span class="area-label">Products</span>
-            <h3>Ship focused browser-native tools.</h3>
-            <p>Build complete client-side experiences that are fast to open, share, and maintain.</p>
+            <span class="area-label">Private Communication</span>
+            <h3>Communicate without a central service.</h3>
+            <p>Explore serverless local-network messaging with practical desktop surfaces.</p>
+          </article>
+          <article>
+            <span class="area-label">Browser Labs</span>
+            <h3>Ship small products that open fast.</h3>
+            <p>Publish focused client-side experiences that are easy to share and maintain.</p>
           </article>
         </div>
       </section>
@@ -131,72 +136,86 @@
             <div class="project-meta">Agent Control / TypeScript</div>
             <h3>tmux-claude-bot</h3>
             <p>
-              Control Claude Code and OpenAI Codex sessions from Telegram, Feishu/Lark, a CLI, or a
+              Control Claude Code and OpenAI Codex agents from Telegram, Feishu/Lark, a CLI, or a
               TUI while the real process stays inside tmux.
             </p>
             <a href="https://github.com/OctopusGarage/tmux-claude-bot">Open repository</a>
           </article>
 
           <article class="project">
-            <div class="project-meta">Knowledge / Python</div>
+            <div class="project-meta">Agent Control / TypeScript</div>
+            <h3>telegram-bridge</h3>
+            <p>Bridge Telegram messages into tmux and stream pane output back to chat.</p>
+            <a href="https://github.com/OctopusGarage/telegram-bridge">Open repository</a>
+          </article>
+
+          <article class="project">
+            <div class="project-meta">Knowledge and Memory / Python</div>
             <h3>alcove</h3>
             <p>Local-first personal memory for agent workflows and private retrieval.</p>
             <a href="https://octopusgarage.github.io/alcove/">Open product</a>
           </article>
 
           <article class="project">
-            <div class="project-meta">Knowledge / TypeScript</div>
+            <div class="project-meta">Knowledge and Memory / TypeScript</div>
             <h3>clipsmith</h3>
             <p>Capture posts, articles, media, and OCR into portable local bundles.</p>
-            <a href="https://octopusgarage.github.io/clipsmith">Open product</a>
+            <a href="https://octopusgarage.github.io/clipsmith/">Open product</a>
           </article>
 
           <article class="project">
-            <div class="project-meta">Automation / Python</div>
-            <h3>git-auto-sync</h3>
-            <p>Monitor repos, stage carefully, write conventional commits, push, and notify.</p>
-            <a href="https://github.com/OctopusGarage/git-auto-sync">Open repository</a>
-          </article>
-
-          <article class="project">
-            <div class="project-meta">Automation / Python</div>
-            <h3>net-auto-switch</h3>
-            <p>Keep macOS WiFi and Clash Verge proxy nodes healthy with measured switching.</p>
-            <a href="https://github.com/OctopusGarage/net-auto-switch">Open repository</a>
-          </article>
-
-          <article class="project">
-            <div class="project-meta">Automation / Go</div>
-            <h3>envsentinel</h3>
-            <p>Audit local environment signals for AI coding CLIs from the terminal.</p>
-            <a href="https://github.com/OctopusGarage/envsentinel">Open repository</a>
-          </article>
-
-          <article class="project">
-            <div class="project-meta">Communication / Rust</div>
-            <h3>mesh-talk</h3>
-            <p>Serverless, end-to-end-encrypted local-network messaging with a Rust core.</p>
-            <a href="https://octopusgarage.github.io/mesh-talk/">Open product</a>
-          </article>
-
-          <article class="project">
-            <div class="project-meta">Learning / TypeScript</div>
+            <div class="project-meta">Knowledge and Learning / TypeScript</div>
             <h3>english-pilot</h3>
-            <p>Conversation gate, coaching assistant, and English review system for AI workflows.</p>
+            <p>English conversation gate, coaching assistant, and review system for AI workflows.</p>
             <a href="https://github.com/OctopusGarage/english-pilot">Open repository</a>
           </article>
 
           <article class="project">
-            <div class="project-meta">Browser Lab / TypeScript</div>
+            <div class="project-meta">Local Automation / Python</div>
+            <h3>git-auto-sync</h3>
+            <p>Auto-sync local repositories with AI-assisted commits, scheduling, and notifications.</p>
+            <a href="https://github.com/OctopusGarage/git-auto-sync">Open repository</a>
+          </article>
+
+          <article class="project">
+            <div class="project-meta">Local Automation / Python</div>
+            <h3>net-auto-switch</h3>
+            <p>Keep macOS WiFi and Clash Verge proxy nodes healthy with measured network checks.</p>
+            <a href="https://github.com/OctopusGarage/net-auto-switch">Open repository</a>
+          </article>
+
+          <article class="project">
+            <div class="project-meta">Local Automation / Go</div>
+            <h3>envsentinel</h3>
+            <p>Audit local environment signals for AI coding CLIs.</p>
+            <a href="https://github.com/OctopusGarage/envsentinel">Open repository</a>
+          </article>
+
+          <article class="project">
+            <div class="project-meta">Private Communication / Rust</div>
+            <h3>mesh-talk</h3>
+            <p>Serverless encrypted LAN messenger with a Rust core and Tauri desktop app.</p>
+            <a href="https://octopusgarage.github.io/mesh-talk/">Open product</a>
+          </article>
+
+          <article class="project">
+            <div class="project-meta">Agent Skills / Shell</div>
+            <h3>octopusgarage-skills</h3>
+            <p>Practical agent skills for reusable OctopusGarage workflows.</p>
+            <a href="https://github.com/OctopusGarage/octopusgarage-skills">Open repository</a>
+          </article>
+
+          <article class="project">
+            <div class="project-meta">Browser Labs / TypeScript</div>
             <h3>bracket-guess</h3>
-            <p>Predict tournament brackets and export shareable posters without a backend.</p>
+            <p>Predict brackets and export shareable posters.</p>
             <a href="https://octopusgarage.github.io/bracket-guess/">Open product</a>
           </article>
 
           <article class="project">
-            <div class="project-meta">Browser Lab / Vue</div>
+            <div class="project-meta">Browser Labs / Vue</div>
             <h3>mbti-lab</h3>
-            <p>Bilingual personality test with shareable results and offline-friendly behavior.</p>
+            <p>Bilingual MBTI test with shareable results.</p>
             <a href="https://octopusgarage.github.io/mbti-lab/">Open product</a>
           </article>
         </div>

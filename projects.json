@@ -3,7 +3,7 @@
     "name": "OctopusGarage",
     "url": "https://github.com/OctopusGarage",
     "website": "https://octopusgarage.github.io/",
-    "description": "Small, practical open-source tools for AI agents, local automation, private knowledge, networking, and browser-native products."
+    "description": "Compact open-source tools for durable AI-assisted work: agent control, local automation, private knowledge, and browser-native products."
   },
   "projects": [
     {
@@ -11,15 +11,25 @@
       "emoji": "🤖",
       "category": "Agent Control",
       "language": "TypeScript",
-      "description": "Control Claude Code and Codex agents from Telegram, Feishu/Lark, a CLI, or a TUI.",
+      "description": "Control Claude Code and OpenAI Codex agents from Telegram, Feishu/Lark, a CLI, or a TUI.",
       "github": "https://github.com/OctopusGarage/tmux-claude-bot",
       "homepage": "https://github.com/OctopusGarage/tmux-claude-bot/releases/latest",
       "markdown": "https://octopusgarage.github.io/projects/tmux-claude-bot.md"
     },
     {
+      "name": "telegram-bridge",
+      "emoji": "📬",
+      "category": "Agent Control",
+      "language": "TypeScript",
+      "description": "Bridge Telegram messages into tmux and stream pane output back to chat.",
+      "github": "https://github.com/OctopusGarage/telegram-bridge",
+      "homepage": "",
+      "markdown": "https://octopusgarage.github.io/projects/telegram-bridge.md"
+    },
+    {
       "name": "alcove",
       "emoji": "🧠",
-      "category": "Knowledge Tools",
+      "category": "Knowledge and Memory",
       "language": "Python",
       "description": "Local-first personal memory for agent workflows.",
       "github": "https://github.com/OctopusGarage/alcove",
@@ -29,12 +39,22 @@
     {
       "name": "clipsmith",
       "emoji": "✂️",
-      "category": "Knowledge Tools",
+      "category": "Knowledge and Memory",
       "language": "TypeScript",
       "description": "Capture posts, articles, media, and OCR into portable local bundles.",
       "github": "https://github.com/OctopusGarage/clipsmith",
-      "homepage": "https://octopusgarage.github.io/clipsmith",
+      "homepage": "https://octopusgarage.github.io/clipsmith/",
       "markdown": "https://octopusgarage.github.io/projects/clipsmith.md"
+    },
+    {
+      "name": "english-pilot",
+      "emoji": "🗣️",
+      "category": "Knowledge and Learning",
+      "language": "TypeScript",
+      "description": "English conversation gate, coaching assistant, and review system for AI workflows.",
+      "github": "https://github.com/OctopusGarage/english-pilot",
+      "homepage": "",
+      "markdown": "https://octopusgarage.github.io/projects/english-pilot.md"
     },
     {
       "name": "git-auto-sync",
@@ -71,17 +91,27 @@
       "emoji": "🔐",
       "category": "Private Communication",
       "language": "Rust",
-      "description": "Serverless, end-to-end-encrypted P2P messenger for local networks.",
+      "description": "Serverless encrypted LAN messenger.",
       "github": "https://github.com/OctopusGarage/mesh-talk",
       "homepage": "https://octopusgarage.github.io/mesh-talk/",
       "markdown": "https://octopusgarage.github.io/projects/mesh-talk.md"
+    },
+    {
+      "name": "octopusgarage-skills",
+      "emoji": "🧰",
+      "category": "Agent Skills",
+      "language": "Shell",
+      "description": "Practical agent skills for OctopusGarage workflows.",
+      "github": "https://github.com/OctopusGarage/octopusgarage-skills",
+      "homepage": "",
+      "markdown": "https://octopusgarage.github.io/projects/octopusgarage-skills.md"
     },
     {
       "name": "bracket-guess",
       "emoji": "🏆",
       "category": "Browser Labs",
       "language": "TypeScript",
-      "description": "Predict knockout brackets and export polished shareable posters in the browser.",
+      "description": "Predict brackets and export shareable posters.",
       "github": "https://github.com/OctopusGarage/bracket-guess",
       "homepage": "https://octopusgarage.github.io/bracket-guess/",
       "markdown": "https://octopusgarage.github.io/projects/bracket-guess.md"
@@ -91,40 +121,10 @@
       "emoji": "🧭",
       "category": "Browser Labs",
       "language": "Vue",
-      "description": "Bilingual MBTI personality test with offline support and shareable results.",
+      "description": "Bilingual MBTI test with shareable results.",
       "github": "https://github.com/OctopusGarage/mbti-lab",
       "homepage": "https://octopusgarage.github.io/mbti-lab/",
       "markdown": "https://octopusgarage.github.io/projects/mbti-lab.md"
-    },
-    {
-      "name": "octopusgarage-skills",
-      "emoji": "🧰",
-      "category": "Agent Skills",
-      "language": "Shell",
-      "description": "Reusable Claude Code and Codex skills for OctopusGarage workflows.",
-      "github": "https://github.com/OctopusGarage/octopusgarage-skills",
-      "homepage": "",
-      "markdown": "https://octopusgarage.github.io/projects/octopusgarage-skills.md"
-    },
-    {
-      "name": "english-pilot",
-      "emoji": "🗣️",
-      "category": "Knowledge Tools",
-      "language": "TypeScript",
-      "description": "English conversation gate, coaching assistant, and review system for AI workflows.",
-      "github": "https://github.com/OctopusGarage/english-pilot",
-      "homepage": "",
-      "markdown": "https://octopusgarage.github.io/projects/english-pilot.md"
-    },
-    {
-      "name": "telegram-bridge",
-      "emoji": "📬",
-      "category": "Agent Control",
-      "language": "TypeScript",
-      "description": "Bridge Telegram messages into tmux and stream pane output back to chat.",
-      "github": "https://github.com/OctopusGarage/telegram-bridge",
-      "homepage": "",
-      "markdown": "https://octopusgarage.github.io/projects/telegram-bridge.md"
     }
   ]
 }
