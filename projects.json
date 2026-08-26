@@ -57,6 +57,26 @@
       "markdown": "https://octopusgarage.github.io/projects/english-pilot.md"
     },
     {
+      "name": "fluent-frame",
+      "emoji": "🎬",
+      "category": "Knowledge and Learning",
+      "language": "TypeScript",
+      "description": "Local-first Chrome extension for bilingual YouTube subtitles and English learning notes.",
+      "github": "https://github.com/OctopusGarage/fluent-frame",
+      "homepage": "",
+      "markdown": "https://octopusgarage.github.io/projects/fluent-frame.md"
+    },
+    {
+      "name": "phronesis",
+      "emoji": "🧭",
+      "category": "Knowledge and Learning",
+      "language": "Shell",
+      "description": "Practical-wisdom workspace for applying philosophical thought modules to real-life situations with local AI agents.",
+      "github": "https://github.com/OctopusGarage/phronesis",
+      "homepage": "",
+      "markdown": "https://octopusgarage.github.io/projects/phronesis.md"
+    },
+    {
       "name": "git-auto-sync",
       "emoji": "🔄",
       "category": "Local Automation",

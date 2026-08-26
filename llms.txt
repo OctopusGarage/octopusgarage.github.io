@@ -16,6 +16,8 @@
 - [alcove](https://octopusgarage.github.io/projects/alcove.md): local-first personal memory for agent workflows.
 - [clipsmith](https://octopusgarage.github.io/projects/clipsmith.md): capture posts, articles, media, and OCR into portable local bundles.
 - [english-pilot](https://octopusgarage.github.io/projects/english-pilot.md): English conversation gate, coaching assistant, and review system for AI workflows.
+- [fluent-frame](https://octopusgarage.github.io/projects/fluent-frame.md): local-first Chrome extension for bilingual YouTube subtitles and English learning notes.
+- [phronesis](https://octopusgarage.github.io/projects/phronesis.md): practical-wisdom workspace for applying philosophical thought modules with local AI agents.
 - [git-auto-sync](https://octopusgarage.github.io/projects/git-auto-sync.md): auto-sync local repositories with AI-assisted commits, scheduling, and notifications.
 - [net-auto-switch](https://octopusgarage.github.io/projects/net-auto-switch.md): keep macOS WiFi and Clash Verge proxy nodes healthy with measured network checks.
 - [envsentinel](https://octopusgarage.github.io/projects/envsentinel.md): audit local environment signals for AI coding CLIs.
@@ -26,4 +28,4 @@
 
 ## About
 
-OctopusGarage connects recurring workflows around long-running AI coding agents: keeping sessions reachable, maintaining local machines, preserving source material and private memory, communicating on local networks, and publishing small browser-native products. Public listings intentionally exclude private and archived repositories.
+OctopusGarage connects recurring workflows around long-running AI coding agents: keeping sessions reachable, maintaining local machines, preserving source material and private memory, supporting learning and judgment loops, communicating on local networks, and publishing small browser-native products. Public listings intentionally exclude private and archived repositories.
