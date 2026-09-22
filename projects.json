@@ -27,6 +27,16 @@
       "markdown": "https://octopusgarage.github.io/projects/telegram-bridge.md"
     },
     {
+      "name": "ralphworks",
+      "emoji": "🔁",
+      "category": "Agent Control",
+      "language": "TypeScript",
+      "description": "Run bounded Pi coding loops with saved progress, checks, and local, Docker, or GitHub Actions execution.",
+      "github": "https://github.com/OctopusGarage/ralphworks",
+      "homepage": "https://github.com/OctopusGarage/ralphworks/releases/latest",
+      "markdown": "https://octopusgarage.github.io/projects/ralphworks.md"
+    },
+    {
       "name": "alcove",
       "emoji": "🧠",
       "category": "Knowledge and Memory",

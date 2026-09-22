@@ -13,6 +13,7 @@
 
 - [tmux-claude-bot](https://octopusgarage.github.io/projects/tmux-claude-bot.md): control Claude Code and OpenAI Codex agents from Telegram, Feishu/Lark, a CLI, or a TUI.
 - [telegram-bridge](https://octopusgarage.github.io/projects/telegram-bridge.md): bridge Telegram messages into tmux and stream pane output back to chat.
+- [ralphworks](https://octopusgarage.github.io/projects/ralphworks.md): run bounded Pi coding loops with progress, checks, and local, Docker, or GitHub Actions execution.
 - [alcove](https://octopusgarage.github.io/projects/alcove.md): local-first personal memory for agent workflows.
 - [clipsmith](https://octopusgarage.github.io/projects/clipsmith.md): capture posts, articles, media, and OCR into portable local bundles.
 - [english-pilot](https://octopusgarage.github.io/projects/english-pilot.md): English conversation gate, coaching assistant, and review system for AI workflows.
