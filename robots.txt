@@ -40,3 +40,4 @@ User-agent: *
 Allow: /
 
 Sitemap: https://octopusgarage.github.io/sitemap.xml
+Sitemap: https://octopusgarage.github.io/mesh-talk/sitemap.xml

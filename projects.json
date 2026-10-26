@@ -121,7 +121,7 @@
       "emoji": "🔐",
       "category": "Private Communication",
       "language": "Rust",
-      "description": "Serverless encrypted LAN messenger.",
+      "description": "Encrypted desktop messaging across local and connected networks.",
       "github": "https://github.com/OctopusGarage/mesh-talk",
       "homepage": "https://octopusgarage.github.io/mesh-talk/",
       "markdown": "https://octopusgarage.github.io/projects/mesh-talk.md"
