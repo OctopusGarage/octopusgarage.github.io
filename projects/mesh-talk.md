@@ -1,6 +1,6 @@
 # mesh-talk
 
-> Serverless encrypted LAN messenger.
+> Encrypted desktop messaging across local and connected networks.
 
 ## Metadata
 
@@ -11,17 +11,29 @@
 
 ## Summary
 
-mesh-talk lets peers on a local network discover each other and communicate directly without accounts, cloud services, or a central server. It uses a Rust protocol core with a Tauri and React desktop app.
+Mesh-Talk is an open-source encrypted messenger for macOS, Windows and Linux. People create local accounts without an email address, phone number or cloud identity provider. Reachable devices communicate directly; existing routed networks and configured post-office bridges can connect sites. It uses a Rust protocol core with a Tauri and React desktop app.
+
+No vendor-operated messaging server is required. Optional peer-operated post offices are running nodes that can temporarily hold encrypted events for offline delivery, subject to connectivity, capacity and retention limits. They cannot read message plaintext but may observe routing metadata. Offline delivery is not guaranteed permanent storage.
+
+## Authoritative Documentation
+
+- [Product overview and limitations](https://octopusgarage.github.io/mesh-talk/help/about-mesh-talk.html)
+- [Markdown overview](https://octopusgarage.github.io/mesh-talk/index.md)
+- [User guide](https://octopusgarage.github.io/mesh-talk/help/index.html)
+- [AI documentation index](https://octopusgarage.github.io/mesh-talk/llms.txt)
+- [Published releases](https://github.com/OctopusGarage/mesh-talk/releases)
+
+The project manual owns detailed product facts. Check its documentation source version against your installed app; source documentation is not proof of a published Stable release.
 
 ## Fits Into OctopusGarage
 
-mesh-talk extends the OctopusGarage local-first principle into communication. It explores how private network tools can stay serverless while still offering a polished desktop surface.
+Mesh-Talk extends the OctopusGarage local-first principle into communication across networks people control, without a required central vendor service.
 
 ## Best For
 
-- Private LAN messaging.
-- Serverless desktop communication.
-- Local-first experiments with encrypted peer-to-peer protocols.
+- Encrypted communication on a reachable LAN, including isolated networks without internet access.
+- Desktop messaging across existing routed networks or configured post-office bridges.
+- Local accounts, linked devices and optional peer-operated offline custody.
 
 ## Related Projects
 
@@ -30,4 +42,4 @@ mesh-talk extends the OctopusGarage local-first principle into communication. It
 
 ## Keywords
 
-P2P, LAN messenger, end-to-end encryption, Rust, Tauri, React, local network, serverless.
+P2P, encrypted desktop messaging, local accounts, LAN, routed networks, post offices, end-to-end encryption, Rust, Tauri, React.

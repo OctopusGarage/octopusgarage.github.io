@@ -62,7 +62,7 @@ phronesis is a practical-wisdom workspace for applying philosophical and persona
 
 ### Private Communication
 
-mesh-talk is a serverless encrypted LAN messenger. Peers discover each other and communicate directly without accounts, cloud services, or a central server. The protocol core is written in Rust, with a Tauri and React desktop app for macOS, Windows, and Linux.
+Mesh-Talk provides encrypted desktop messaging across local and connected networks. People create local accounts without a cloud identity provider. Reachable devices communicate directly; existing routed networks or configured post-office bridges can connect sites. Optional peer-operated post offices temporarily retain encrypted events, subject to connectivity, capacity and retention limits. They cannot read plaintext but may observe routing metadata; offline delivery is not guaranteed permanent storage. No vendor-operated messaging server is required. Its Rust core and Tauri/React desktop app support macOS, Windows and Linux. The authoritative product overview and version-scoped public manual are at https://octopusgarage.github.io/mesh-talk/help/about-mesh-talk.html and https://octopusgarage.github.io/mesh-talk/llms.txt. Source documentation does not establish Stable release availability.
 
 ### Browser Labs
 
